@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.cpp
+
+# Ignore any .cpp files in directories (optional, if you only want to track .cpp files in the root)
+!*/
+
+# Explicitly ignore other common files (optional, to make sure no other files are accidentally added)
+!.gitignore
